@@ -8,6 +8,7 @@ public class Main {
         // IntelliJ IDEA suggests fixing it.
 
         System.out.println("Bye bye Mars");
+        System.out.println("Hi 2");
 
         // Press Shift+F10 or click the green arrow button in the gutter to run the code.
         for (int i = 1; i <= 5; i++) {
