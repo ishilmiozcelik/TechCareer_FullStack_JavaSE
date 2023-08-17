@@ -9,7 +9,12 @@ public class Main {
 
         System.out.println("Bye bye Mars");
         System.out.println("Hi 2");
-        System.out.println("Hi 2");
+        System.out.println("Hi 3");
+        System.out.println("Hi 3");
+        System.out.println("Hi 3");
+        System.out.println("Hi 3");
+
+
 
         // Press Shift+F10 or click the green arrow button in the gutter to run the code.
         for (int i = 1; i <= 5; i++) {
