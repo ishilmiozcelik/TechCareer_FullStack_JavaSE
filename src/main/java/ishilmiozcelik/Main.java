@@ -8,12 +8,6 @@ public class Main {
         // IntelliJ IDEA suggests fixing it.
 
         System.out.println("Bye bye Mars");
-        System.out.println("Hi 2");
-        System.out.println("Hi 3");
-        System.out.println("Hi 3");
-        System.out.println("Hi 3");
-        System.out.println("Hi 3");
-        System.out.println("Hi 3");
 
 
 
