@@ -11,10 +11,8 @@ public class _07_String {
         System.out.println(word.toUpperCase());
         System.out.println(word.startsWith("J"));
         System.out.println(word.endsWith(" "));
-
         System.out.println(word.concat("44"));
         System.out.println(word.replace(word, "NEW WORD"));
-
         System.out.println(word.charAt(1));
         System.out.println(word.indexOf("Java"));
         System.out.println(word.lastIndexOf("Java"));
