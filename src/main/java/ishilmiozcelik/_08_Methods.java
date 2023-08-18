@@ -2,17 +2,30 @@ package ishilmiozcelik;
 
 public class _08_Methods {
 
-
-
-    public void voidliParametresiz(){
-
+    public static void voidliParametresiz(){
         System.out.println("voidli Parametresiz");
-
     }
 
-    public void voidsizParametresiz(){
+    public static void voidliParametreli(String name){
+        System.out.println("voidli Parametreli:" + name);
+    }
 
-        System.out.println("voidli Parametresiz");
+    public static Integer voidsizParametresiz(){
+        return Math.abs(-14);
+    }
 
+    public static Integer voidsizParametreli(int number){
+        return Math.abs(number);
+    }
+
+    public static void main(String[] args) {
+        voidliParametresiz();
+        voidliParametreli("Java");
+
+        int data = voidsizParametresiz();
+        System.out.println(data);
+
+        int data2 = voidsizParametreli(-16);
+        System.out.println(data2);
     }
 }
