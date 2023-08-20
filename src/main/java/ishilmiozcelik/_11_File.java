@@ -11,7 +11,7 @@ public class _11_File {
     try (BufferedWriter bufferedWriter=new BufferedWriter(new FileWriter(URL,true))){
         bufferedWriter.write("First Row");
         bufferedWriter.flush();
-    }catch (ArithmeticException e){
+    }catch (ArithmeticException | IOException e){
         System.out.println(e.getMessage());
 
     }
@@ -20,8 +20,10 @@ public class _11_File {
     public static void getUserReader(){
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader(URL,true))){
 
-        }catch (ArithmeticException e){
-            System.out.println(e.getMessage());
+        }catch (FileNotFoundException e){
+            throw new RuntimeException(e);
+        }catch (Exception e){
+            e.printStackTrace();
 
         }
     }
