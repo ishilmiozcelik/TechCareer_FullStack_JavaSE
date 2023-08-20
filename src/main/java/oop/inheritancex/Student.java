@@ -6,7 +6,15 @@ package oop.inheritancex;
 
 import java.io.Serializable;
 
-public class Student implements Serializable {
+public class Student extends Person {
+
+
+}
+
+
+
+
+/* implements Serializable {
 
     public static final Long serialVersionUID=1L;
 
@@ -70,3 +78,4 @@ public class Student implements Serializable {
         this.name = name;
     }
 }
+*/

@@ -8,6 +8,7 @@ public class MainInheritance {
         Teacher teacher = new Teacher();
         teacher.setId(44L);
         teacher.setName("Teacher Name");
+        teacher.setSurname("Teacher Surname");
         teacher.getData();
         System.out.println(teacher.hashCode());
         System.out.println(teacher);
@@ -17,6 +18,7 @@ public class MainInheritance {
         Student student = new Student();
         student.setId(44L);
         student.setName("Student Name");
+        student.setSurname("Student Surname");
         student.getData();
         System.out.println(student.hashCode());
         System.out.println(student);

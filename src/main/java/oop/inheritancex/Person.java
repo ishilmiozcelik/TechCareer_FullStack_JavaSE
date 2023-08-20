@@ -1,18 +1,8 @@
 package oop.inheritancex;
 
-//POJO
-//POJO + Constructor: BEAN
-
-
 import java.io.Serializable;
 
-public class Teacher extends Person {
-
-
-}
-
-
-    /* implements Serializable {
+public class Person implements Serializable {
 
     public static final Long serialVersionUID=1L;
 
@@ -21,18 +11,22 @@ public class Teacher extends Person {
 
     private String name;
 
+    private String surname;
+
 
 
     //CONSTRUCTOR
-    public Teacher() {
+    public Person() {
         id=0L;
         name="You did not enter your name";
+        surname="You did not enter your surname";
 
     }
 
-    public Teacher(Long id, String name) {
+    public Person(Long id, String name, String surname) {
         this.id = id;
         this.name = name;
+        this.surname = surname;
     }
 
 
@@ -41,9 +35,10 @@ public class Teacher extends Person {
     //toString
     @Override
     public String toString() {
-        return "Teacher{" +
+        return "Person{" +
                 "id=" + id +
                 ", name=" + name +
+                ", surname=" + surname +
                 '}';
     }
 
@@ -52,7 +47,7 @@ public class Teacher extends Person {
     //METHOD
 
     public void getData(){
-        System.out.println("ID:" + id + "NAME:" + name);
+        System.out.println("ID:" + id + "NAME:" + name + "SURNAME" + this.surname);
 
     }
 
@@ -75,7 +70,12 @@ public class Teacher extends Person {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
 }
-
-
-     */
