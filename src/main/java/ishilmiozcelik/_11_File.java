@@ -17,16 +17,16 @@ public class _11_File {
     }
     }
 
-    public static void getUserReader(){
-        try(BufferedReader bufferedReader = new BufferedReader(new FileReader(URL,true))){
+   // public static void getUserReader(){
+      //  try(BufferedReader bufferedReader = new BufferedReader(new FileReader(URL,true))){
 
-        }catch (FileNotFoundException e){
-            throw new RuntimeException(e);
-        }catch (Exception e){
-            e.printStackTrace();
+       // }catch (FileNotFoundException e){
+      //      throw new RuntimeException(e);
+       // }catch (Exception e){
+        //    e.printStackTrace();
 
-        }
-    }
+
+    //}
 
 
 /*
@@ -48,4 +48,6 @@ public class _11_File {
         public static void main (String[]args) throws IOException {
             getUserWriter();
         }
-    }
+}
+
+
