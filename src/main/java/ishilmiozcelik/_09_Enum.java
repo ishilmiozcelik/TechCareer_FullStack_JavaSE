@@ -10,6 +10,7 @@ class TryEnum{
         System.out.println(data);
         System.out.println(_09_Enum.FRIDAY.name());
         System.out.println(_09_Enum.FRIDAY.ordinal());
+        System.out.println(_09_Enum.SATURDAY);
     }
 }
 
